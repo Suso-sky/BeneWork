@@ -1,0 +1,22 @@
+# Django
+*.pyc
+__pycache__/
+db.sqlite3
+migrations/
+
+# Entorno virtual
+venv/
+env/
+
+# Archivos de configuración sensible
+.env
+*.env
+settings/local.py
+
+# PostgreSQL (si usas backups)
+*.dump
+*.backup
+
+# IDE/Editor
+.vscode/
+.idea/
